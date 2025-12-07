@@ -21,7 +21,7 @@
         <!-- Pokemon Table -->
         <table class="min-w-full bg-white border border-gray-200">
             <thead>
-                <tr class="bg-gray-100 sticky top-0 z-10">
+                <tr class="bg-gray-100 sticky top-[70px] z-10">
                     <th class="py-2 px-1 cursor-pointer whitespace-nowrap" @click="sortBy('index')">#</th>
                     <th class="py-2 px-6 whitespace-nowrap">画像</th>
                     <th class="py-2 px-2 cursor-pointer whitespace-nowrap" @click="sortBy('name')">名前</th>
@@ -36,7 +36,7 @@
                         <span class="cursor-pointer px-1" @click="sortBy('total')">T</span>
                     </th>
 
-                    <th class="py-2 px-5 cursor-pointer whitespace-nowrap">進化条件</th>
+                    <th class="py-2 px-6 cursor-pointer whitespace-nowrap">進化条件</th>
                     <th class="py-2 px-2 cursor-pointer whitespace-nowrap">出現条件</th>
                 </tr>
             </thead>
