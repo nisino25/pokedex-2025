@@ -36,7 +36,7 @@
                         <span class="cursor-pointer px-1" @click="sortBy('total')">T</span>
                     </th>
 
-                    <th class="py-2 px-4 cursor-pointer whitespace-nowrap">進化条件</th>
+                    <th class="py-2 px-5 cursor-pointer whitespace-nowrap">進化条件</th>
                     <th class="py-2 px-2 cursor-pointer whitespace-nowrap">出現条件</th>
                 </tr>
             </thead>
