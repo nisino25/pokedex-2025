@@ -22,17 +22,22 @@
         <table class="min-w-full bg-white border border-gray-200">
             <thead>
                 <tr class="bg-gray-100 sticky top-0 z-10">
-                    <th class="py-2 px-4 cursor-pointer" @click="sortBy('index')">#</th>
-                    <th class="py-2 px-4">画像</th>
-                    <th class="py-2 px-4 cursor-pointer" @click="sortBy('name')">名前</th>
-                    <th class="py-2 px-4 cursor-pointer" @click="sortBy('type1')">タイプ1</th>
-                    <th class="py-2 px-4">タイプ2</th>
-                    <th class="py-2 px-4 cursor-pointer" @click="sortBy('hp')">HP</th>
-                    <th class="py-2 px-4 cursor-pointer" @click="sortBy('attack')">攻撃</th>
-                    <th class="py-2 px-4 cursor-pointer" @click="sortBy('specialAttack')">特攻</th>
-                    <th class="py-2 px-4 cursor-pointer" @click="sortBy('defense')">防御</th>
-                    <th class="py-2 px-4 cursor-pointer" @click="sortBy('specialDefense')">特防</th>
-                    <th class="py-2 px-4 cursor-pointer" @click="sortBy('total')">合計</th>
+                    <th class="py-2 px-1 cursor-pointer whitespace-nowrap" @click="sortBy('index')">#</th>
+                    <th class="py-2 px-6 whitespace-nowrap">画像</th>
+                    <th class="py-2 px-2 cursor-pointer whitespace-nowrap" @click="sortBy('name')">名前</th>
+                    <th class="py-2 px-2 cursor-pointer whitespace-nowrap">タイプ</th>
+                    <th class="py-2 px-2 whitespace-nowrap">
+                        <span class="cursor-pointer px-1" @click="sortBy('speed')">S</span>-
+                        <span class="cursor-pointer px-1" @click="sortBy('attack')">A</span>-
+                        <span class="cursor-pointer px-1" @click="sortBy('specialAttack')">C</span>-
+                        <span class="cursor-pointer px-1" @click="sortBy('defense')">B</span>-
+                        <span class="cursor-pointer px-1" @click="sortBy('specialDefense')">D</span>-
+                        <span class="cursor-pointer px-1" @click="sortBy('hp')">H</span>-
+                        <span class="cursor-pointer px-1" @click="sortBy('total')">T</span>
+                    </th>
+
+                    <th class="py-2 px-4 cursor-pointer whitespace-nowrap">進化条件</th>
+                    <th class="py-2 px-2 cursor-pointer whitespace-nowrap">出現条件</th>
                 </tr>
             </thead>
             <tbody>
@@ -41,28 +46,37 @@
                     :key="pokemon.index"
                     class="text-center border-t border-gray-200 hover:bg-gray-50"
                 >
-                    <td class="py-2 px-4">{{ pokemon.index }}</td>
-                    <td class="py-2 px-4">
+                    <td class="py-2 px-2">{{ pokemon.index }}</td>
+                    <td class="py-2 px-2">
                         <img
                             :src="`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${pokemon.index}.gif`"
                             :alt="pokemon.name"
-                            class="w-16 h-16 mx-auto"
+                            class="w-16 h-auto mx-auto"
                         />
                     </td>
-                    <td class="py-2 px-4">{{ pokemon.name }}</td>
-                    <td class="py-2 px-4">
+                    <td class="py-2 px-2 whitespace-nowrap">{{ pokemon.name }}</td>
+                    <td class="py-2 px-2 whitespace-nowrap">
                         <span :class="getTypeBadge(pokemon.type1)">{{ pokemon.type1 }}</span>
+                        <br v-if="pokemon.type2">
+                        <span v-if="pokemon.type2" :class="getTypeBadge(pokemon.type2)">{{ pokemon.type2 }}</span>
+                    </td>
+                    <td class="py-2 px-2 whitespace-nowrap">
+                        {{ pokemon.speed }}-{{ pokemon.attack }}-{{ pokemon.specialAttack }}-{{ pokemon.hp }}-{{ pokemon.defense }}-{{ pokemon.specialDefense }}-{{ pokemon.total }}
                     </td>
 
-                    <td class="py-2 px-4" v-if="pokemon.type2">
-                        <span :class="getTypeBadge(pokemon.type2)">{{ pokemon.type2 }}</span>
+                    <td class="py-2 px-2 whitespace-pre-line text-left">{{ pokemon.evolutionCondirion }}</td>
+                    <td 
+                        class="py-2 px-2 whitespace-pre-line text-left"
+                        :class="{
+                            'bg-red-200 text-red-800': pokemon.additionalInfo.includes('ファイアレッドのみ'),
+                            'bg-green-200 text-green-800': pokemon.additionalInfo.includes('リーフグリーンのみ'),
+                            'bg-blue-200 text-blue-800': pokemon.additionalInfo.includes('special'),
+                            'bg-yellow-200 text-yellow-800': pokemon.additionalInfo.includes('legendary'),
+                            'bg-gray-300 text-gray-700': pokemon.additionalInfo.includes('impossible')
+                        }"
+                        >
+                        {{ pokemon.catchCondition }}
                     </td>
-                    <td class="py-2 px-4">{{ pokemon.hp }}</td>
-                    <td class="py-2 px-4">{{ pokemon.attack }}</td>
-                    <td class="py-2 px-4">{{ pokemon.specialAttack }}</td>
-                    <td class="py-2 px-4">{{ pokemon.defense }}</td>
-                    <td class="py-2 px-4">{{ pokemon.specialDefense }}</td>
-                    <td class="py-2 px-4">{{ pokemon.total }}</td>
                 </tr>
             </tbody>
         </table>

@@ -1,3 +1,5 @@
+// src/constants/pokemonData.js
+
 export const pokemonList = [
   {
     "index": 1,
@@ -14,10 +16,7 @@ export const pokemonList = [
     "specialAttack": 65,
     "specialDefense": 65,
     "speed": 45,
-    "total": 318,
-    "evolutionCondirion": "",
-    "catchCondition": "",
-    "additionalInfo": "special"
+    "total": 318
   },
   {
     "index": 2,
@@ -34,10 +33,7 @@ export const pokemonList = [
     "specialAttack": 80,
     "specialDefense": 80,
     "speed": 60,
-    "total": 405,
-    "evolutionCondirion": "フシギダネが\nレベル１６",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 405
   },
   {
     "index": 3,
@@ -54,10 +50,7 @@ export const pokemonList = [
     "specialAttack": 100,
     "specialDefense": 100,
     "speed": 80,
-    "total": 525,
-    "evolutionCondirion": "フシギソウが\nレベル３２",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 525
   },
   {
     "index": 4,
@@ -74,10 +67,7 @@ export const pokemonList = [
     "specialAttack": 60,
     "specialDefense": 50,
     "speed": 65,
-    "total": 309,
-    "evolutionCondirion": "",
-    "catchCondition": "",
-    "additionalInfo": "special"
+    "total": 309
   },
   {
     "index": 5,
@@ -94,10 +84,7 @@ export const pokemonList = [
     "specialAttack": 80,
     "specialDefense": 65,
     "speed": 80,
-    "total": 405,
-    "evolutionCondirion": "ヒトカゲが\nレベル１６",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 405
   },
   {
     "index": 6,
@@ -114,10 +101,7 @@ export const pokemonList = [
     "specialAttack": 109,
     "specialDefense": 85,
     "speed": 100,
-    "total": 534,
-    "evolutionCondirion": "リザードが\nレベル３６",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 534
   },
   {
     "index": 7,
@@ -134,10 +118,7 @@ export const pokemonList = [
     "specialAttack": 50,
     "specialDefense": 64,
     "speed": 43,
-    "total": 314,
-    "evolutionCondirion": "",
-    "catchCondition": "",
-    "additionalInfo": "special"
+    "total": 314
   },
   {
     "index": 8,
@@ -154,10 +135,7 @@ export const pokemonList = [
     "specialAttack": 65,
     "specialDefense": 80,
     "speed": 58,
-    "total": 405,
-    "evolutionCondirion": "ゼニガメが\nレベル１６",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 405
   },
   {
     "index": 9,
@@ -174,10 +152,7 @@ export const pokemonList = [
     "specialAttack": 85,
     "specialDefense": 105,
     "speed": 78,
-    "total": 530,
-    "evolutionCondirion": "カメールが\nレベル３２",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 530
   },
   {
     "index": 10,
@@ -194,10 +169,7 @@ export const pokemonList = [
     "specialAttack": 20,
     "specialDefense": 20,
     "speed": 45,
-    "total": 195,
-    "evolutionCondirion": "",
-    "catchCondition": "２・２４・２５道路・トキワの森・６の島しるしのはやし",
-    "additionalInfo": ""
+    "total": 195
   },
   {
     "index": 11,
@@ -214,10 +186,7 @@ export const pokemonList = [
     "specialAttack": 25,
     "specialDefense": 25,
     "speed": 30,
-    "total": 205,
-    "evolutionCondirion": "キャタピーが\nレベル７",
-    "catchCondition": "２４・２５番道路トキワの森・6の島しるしのはやし",
-    "additionalInfo": ""
+    "total": 205
   },
   {
     "index": 12,
@@ -234,10 +203,7 @@ export const pokemonList = [
     "specialAttack": 90,
     "specialDefense": 80,
     "speed": 70,
-    "total": 395,
-    "evolutionCondirion": "トランセルが\nレベル１０",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 395
   },
   {
     "index": 13,
@@ -254,10 +220,7 @@ export const pokemonList = [
     "specialAttack": 20,
     "specialDefense": 20,
     "speed": 50,
-    "total": 195,
-    "evolutionCondirion": "",
-    "catchCondition": "２・２４・２５番道路・トキワの森・6の島しるしのはやし",
-    "additionalInfo": ""
+    "total": 195
   },
   {
     "index": 14,
@@ -274,10 +237,7 @@ export const pokemonList = [
     "specialAttack": 25,
     "specialDefense": 25,
     "speed": 35,
-    "total": 205,
-    "evolutionCondirion": "ビードルが\nレベル７",
-    "catchCondition": "２４・２５番道路トキワの森・6の島しるしのはやし",
-    "additionalInfo": ""
+    "total": 205
   },
   {
     "index": 15,
@@ -294,10 +254,7 @@ export const pokemonList = [
     "specialAttack": 45,
     "specialDefense": 80,
     "speed": 75,
-    "total": 395,
-    "evolutionCondirion": "コクーンが\nレベル１０",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 395
   },
   {
     "index": 16,
@@ -314,10 +271,7 @@ export const pokemonList = [
     "specialAttack": 35,
     "specialDefense": 35,
     "speed": 56,
-    "total": 251,
-    "evolutionCondirion": "",
-    "catchCondition": "１・２・３・５・６・７・８・１２・１３・１４・２４・２５番道路・\n３の島・５の島",
-    "additionalInfo": ""
+    "total": 251
   },
   {
     "index": 17,
@@ -334,10 +288,7 @@ export const pokemonList = [
     "specialAttack": 50,
     "specialDefense": 50,
     "speed": 71,
-    "total": 349,
-    "evolutionCondirion": "ポッポが\nレベル１８",
-    "catchCondition": "１３・１４番道路・３の島・５の島",
-    "additionalInfo": ""
+    "total": 349
   },
   {
     "index": 18,
@@ -354,10 +305,7 @@ export const pokemonList = [
     "specialAttack": 70,
     "specialDefense": 70,
     "speed": 101,
-    "total": 479,
-    "evolutionCondirion": "ピジョンが\nレベル３６",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 479
   },
   {
     "index": 19,
@@ -374,10 +322,7 @@ export const pokemonList = [
     "specialAttack": 25,
     "specialDefense": 35,
     "speed": 72,
-    "total": 253,
-    "evolutionCondirion": "",
-    "catchCondition": "１・２・４・９・１６・１７・２２番道路・ポケモン屋敷",
-    "additionalInfo": ""
+    "total": 253
   },
   {
     "index": 20,
@@ -394,10 +339,7 @@ export const pokemonList = [
     "specialAttack": 50,
     "specialDefense": 70,
     "speed": 97,
-    "total": 413,
-    "evolutionCondirion": "コラッタが\nレベル２０",
-    "catchCondition": "１６・１７番道路・ポケモン屋敷",
-    "additionalInfo": ""
+    "total": 413
   },
   {
     "index": 21,
@@ -414,10 +356,7 @@ export const pokemonList = [
     "specialAttack": 31,
     "specialDefense": 31,
     "speed": 70,
-    "total": 262,
-    "evolutionCondirion": "",
-    "catchCondition": "３・４・８・９・１６・１７・２２・２３番道路・１の島・２の島・６の島・７の島",
-    "additionalInfo": ""
+    "total": 262
   },
   {
     "index": 22,
@@ -434,10 +373,7 @@ export const pokemonList = [
     "specialAttack": 61,
     "specialDefense": 61,
     "speed": 100,
-    "total": 442,
-    "evolutionCondirion": "オニスズメが\nレベル２０",
-    "catchCondition": "１６・１７・２２・２３番道路・１の島・２の島・６の島・７の島",
-    "additionalInfo": ""
+    "total": 442
   },
   {
     "index": 23,
@@ -454,10 +390,7 @@ export const pokemonList = [
     "specialAttack": 40,
     "specialDefense": 54,
     "speed": 55,
-    "total": 288,
-    "evolutionCondirion": "",
-    "catchCondition": "４・８・９・１０・１１・２３番道路",
-    "additionalInfo": "ファイアレッドのみ"
+    "total": 288
   },
   {
     "index": 24,
@@ -474,10 +407,7 @@ export const pokemonList = [
     "specialAttack": 65,
     "specialDefense": 79,
     "speed": 80,
-    "total": 448,
-    "evolutionCondirion": "アーボが\nレベル２２",
-    "catchCondition": "",
-    "additionalInfo": "ファイアレッドのみ"
+    "total": 448
   },
   {
     "index": 25,
@@ -494,10 +424,7 @@ export const pokemonList = [
     "specialAttack": 50,
     "specialDefense": 50,
     "speed": 90,
-    "total": 320,
-    "evolutionCondirion": "",
-    "catchCondition": "トキワの森・無人発電所",
-    "additionalInfo": ""
+    "total": 320
   },
   {
     "index": 26,
@@ -514,10 +441,7 @@ export const pokemonList = [
     "specialAttack": 90,
     "specialDefense": 80,
     "speed": 110,
-    "total": 485,
-    "evolutionCondirion": "ピカチュウに雷の石",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 485
   },
   {
     "index": 27,
@@ -534,10 +458,7 @@ export const pokemonList = [
     "specialAttack": 20,
     "specialDefense": 30,
     "speed": 40,
-    "total": 300,
-    "evolutionCondirion": "",
-    "catchCondition": "４・８・９・１０・１１・２３番道路",
-    "additionalInfo": "リーフグリーンのみ"
+    "total": 300
   },
   {
     "index": 28,
@@ -554,10 +475,7 @@ export const pokemonList = [
     "specialAttack": 45,
     "specialDefense": 55,
     "speed": 65,
-    "total": 450,
-    "evolutionCondirion": "サンドが\nレベル２２",
-    "catchCondition": "２３番道路・チャンピオンロード",
-    "additionalInfo": "リーフグリーンのみ"
+    "total": 450
   },
   {
     "index": 29,
@@ -574,10 +492,7 @@ export const pokemonList = [
     "specialAttack": 40,
     "specialDefense": 40,
     "speed": 41,
-    "total": 275,
-    "evolutionCondirion": "",
-    "catchCondition": "３番道路・サファリゾーン",
-    "additionalInfo": ""
+    "total": 275
   },
   {
     "index": 30,
@@ -594,10 +509,7 @@ export const pokemonList = [
     "specialAttack": 55,
     "specialDefense": 55,
     "speed": 56,
-    "total": 365,
-    "evolutionCondirion": "ニドラン♀が\nレベル１６",
-    "catchCondition": "サファリゾーン",
-    "additionalInfo": ""
+    "total": 365
   },
   {
     "index": 31,
@@ -614,10 +526,7 @@ export const pokemonList = [
     "specialAttack": 75,
     "specialDefense": 85,
     "speed": 76,
-    "total": 505,
-    "evolutionCondirion": "ニドリーナに\n月の石",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 505
   },
   {
     "index": 32,
@@ -634,10 +543,7 @@ export const pokemonList = [
     "specialAttack": 40,
     "specialDefense": 40,
     "speed": 50,
-    "total": 273,
-    "evolutionCondirion": "",
-    "catchCondition": "３番道路・サファアゾーン",
-    "additionalInfo": ""
+    "total": 273
   },
   {
     "index": 33,
@@ -654,10 +560,7 @@ export const pokemonList = [
     "specialAttack": 55,
     "specialDefense": 55,
     "speed": 65,
-    "total": 365,
-    "evolutionCondirion": "ニドラン♂が\nレベル１６",
-    "catchCondition": "サファリゾーン",
-    "additionalInfo": ""
+    "total": 365
   },
   {
     "index": 34,
@@ -674,10 +577,7 @@ export const pokemonList = [
     "specialAttack": 85,
     "specialDefense": 75,
     "speed": 85,
-    "total": 505,
-    "evolutionCondirion": "ニドリーノに\n月の石",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 505
   },
   {
     "index": 35,
@@ -694,10 +594,7 @@ export const pokemonList = [
     "specialAttack": 60,
     "specialDefense": 65,
     "speed": 35,
-    "total": 323,
-    "evolutionCondirion": "",
-    "catchCondition": "オツキミ山",
-    "additionalInfo": ""
+    "total": 323
   },
   {
     "index": 36,
@@ -714,10 +611,7 @@ export const pokemonList = [
     "specialAttack": 95,
     "specialDefense": 90,
     "speed": 60,
-    "total": 483,
-    "evolutionCondirion": "ピッピに\n月の石",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 483
   },
   {
     "index": 37,
@@ -734,10 +628,7 @@ export const pokemonList = [
     "specialAttack": 50,
     "specialDefense": 65,
     "speed": 65,
-    "total": 299,
-    "evolutionCondirion": "",
-    "catchCondition": "７・８番道路・ポケモン屋敷",
-    "additionalInfo": "リーフグリーンのみ"
+    "total": 299
   },
   {
     "index": 38,
@@ -754,10 +645,7 @@ export const pokemonList = [
     "specialAttack": 81,
     "specialDefense": 100,
     "speed": 100,
-    "total": 505,
-    "evolutionCondirion": "ロコンに\n炎の石",
-    "catchCondition": "",
-    "additionalInfo": "リーフグリーンのみ"
+    "total": 505
   },
   {
     "index": 39,
@@ -774,10 +662,7 @@ export const pokemonList = [
     "specialAttack": 45,
     "specialDefense": 25,
     "speed": 20,
-    "total": 270,
-    "evolutionCondirion": "",
-    "catchCondition": "３番道路",
-    "additionalInfo": ""
+    "total": 270
   },
   {
     "index": 40,
@@ -794,10 +679,7 @@ export const pokemonList = [
     "specialAttack": 85,
     "specialDefense": 50,
     "speed": 45,
-    "total": 435,
-    "evolutionCondirion": "プリンに\n月の石",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 435
   },
   {
     "index": 41,
@@ -814,10 +696,7 @@ export const pokemonList = [
     "specialAttack": 30,
     "specialDefense": 40,
     "speed": 55,
-    "total": 245,
-    "evolutionCondirion": "",
-    "catchCondition": "オツキミ山、イワヤマトンネル、サファリゾーン、ふたご島、チャンピオンロード、いてだきのどうくつ、かえらずのあな、へんげのどうくつ",
-    "additionalInfo": ""
+    "total": 245
   },
   {
     "index": 42,
@@ -834,10 +713,7 @@ export const pokemonList = [
     "specialAttack": 65,
     "specialDefense": 75,
     "speed": 90,
-    "total": 455,
-    "evolutionCondirion": "ズバットがレベル２２",
-    "catchCondition": "ふたご島、チャンピオンロード、いてだきのどうくつ、かえらずのあな、ハナダのどうくつ",
-    "additionalInfo": ""
+    "total": 455
   },
   {
     "index": 43,
@@ -854,10 +730,7 @@ export const pokemonList = [
     "specialAttack": 75,
     "specialDefense": 65,
     "speed": 30,
-    "total": 320,
-    "evolutionCondirion": "",
-    "catchCondition": "５・６・７・１２・１３・１４・１５・２４・２５番道路・\n２の島・きのみのもり・６の島",
-    "additionalInfo": "ファイアレッドのみ"
+    "total": 320
   },
   {
     "index": 44,
@@ -874,10 +747,7 @@ export const pokemonList = [
     "specialAttack": 85,
     "specialDefense": 75,
     "speed": 40,
-    "total": 395,
-    "evolutionCondirion": "ナゾノクサが\nレベル２１",
-    "catchCondition": "",
-    "additionalInfo": "ファイアレッドのみ"
+    "total": 395
   },
   {
     "index": 45,
@@ -894,10 +764,7 @@ export const pokemonList = [
     "specialAttack": 110,
     "specialDefense": 90,
     "speed": 50,
-    "total": 490,
-    "evolutionCondirion": "クサイハナに\nリーフの石",
-    "catchCondition": "",
-    "additionalInfo": "ファイアレッドのみ"
+    "total": 490
   },
   {
     "index": 46,
@@ -914,10 +781,7 @@ export const pokemonList = [
     "specialAttack": 45,
     "specialDefense": 55,
     "speed": 25,
-    "total": 285,
-    "evolutionCondirion": "",
-    "catchCondition": "オツキミ山、サファリゾーン",
-    "additionalInfo": ""
+    "total": 285
   },
   {
     "index": 47,
@@ -934,10 +798,7 @@ export const pokemonList = [
     "specialAttack": 60,
     "specialDefense": 80,
     "speed": 30,
-    "total": 405,
-    "evolutionCondirion": "パラスが\nレベル２４",
-    "catchCondition": "サファリゾーン、ハナダの洞窟",
-    "additionalInfo": ""
+    "total": 405
   },
   {
     "index": 48,
@@ -954,10 +815,7 @@ export const pokemonList = [
     "specialAttack": 40,
     "specialDefense": 55,
     "speed": 45,
-    "total": 305,
-    "evolutionCondirion": "",
-    "catchCondition": "１２・１３・１４・１５番道路・サファリゾーン・3の島きのみのもり",
-    "additionalInfo": ""
+    "total": 305
   },
   {
     "index": 49,
@@ -974,10 +832,7 @@ export const pokemonList = [
     "specialAttack": 90,
     "specialDefense": 75,
     "speed": 90,
-    "total": 450,
-    "evolutionCondirion": "コンパンが\nレベル３１",
-    "catchCondition": "サファリゾーン・3の島きのみのもり",
-    "additionalInfo": ""
+    "total": 450
   },
   {
     "index": 50,
@@ -994,10 +849,7 @@ export const pokemonList = [
     "specialAttack": 35,
     "specialDefense": 45,
     "speed": 95,
-    "total": 265,
-    "evolutionCondirion": "",
-    "catchCondition": "ディグダの穴に出現",
-    "additionalInfo": ""
+    "total": 265
   },
   {
     "index": 51,
@@ -1014,10 +866,7 @@ export const pokemonList = [
     "specialAttack": 50,
     "specialDefense": 70,
     "speed": 120,
-    "total": 425,
-    "evolutionCondirion": "ディグダが\nレベル２６",
-    "catchCondition": "ディグダの穴に出現",
-    "additionalInfo": ""
+    "total": 425
   },
   {
     "index": 52,
@@ -1034,10 +883,7 @@ export const pokemonList = [
     "specialAttack": 40,
     "specialDefense": 40,
     "speed": 90,
-    "total": 290,
-    "evolutionCondirion": "",
-    "catchCondition": "５・６・７・８番道路・1の島・２の島・３の島・５の島・６の島・７の島",
-    "additionalInfo": ""
+    "total": 290
   },
   {
     "index": 53,
@@ -1054,10 +900,7 @@ export const pokemonList = [
     "specialAttack": 65,
     "specialDefense": 65,
     "speed": 115,
-    "total": 440,
-    "evolutionCondirion": "ニャースが\nレベル２８",
-    "catchCondition": "1の島・２の島・３の島・５の島・６の島・７の島",
-    "additionalInfo": ""
+    "total": 440
   },
   {
     "index": 54,
@@ -1074,10 +917,7 @@ export const pokemonList = [
     "specialAttack": 65,
     "specialDefense": 50,
     "speed": 55,
-    "total": 320,
-    "evolutionCondirion": "",
-    "catchCondition": "各地で釣り",
-    "additionalInfo": "ファイアレッドのみ"
+    "total": 320
   },
   {
     "index": 55,
@@ -1094,10 +934,7 @@ export const pokemonList = [
     "specialAttack": 95,
     "specialDefense": 80,
     "speed": 85,
-    "total": 500,
-    "evolutionCondirion": "コダックが\nレベル３３",
-    "catchCondition": "",
-    "additionalInfo": "ファイアレッドのみ"
+    "total": 500
   },
   {
     "index": 56,
@@ -1114,10 +951,7 @@ export const pokemonList = [
     "specialAttack": 35,
     "specialDefense": 45,
     "speed": 70,
-    "total": 305,
-    "evolutionCondirion": "",
-    "catchCondition": "３・４・２２・２３番道路・イワヤマトンネル",
-    "additionalInfo": ""
+    "total": 305
   },
   {
     "index": 57,
@@ -1134,10 +968,7 @@ export const pokemonList = [
     "specialAttack": 60,
     "specialDefense": 70,
     "speed": 95,
-    "total": 455,
-    "evolutionCondirion": "マンキーが\nレベル２８",
-    "catchCondition": "２３番道路・チャンピオンロード・ハナダのどうくつ",
-    "additionalInfo": ""
+    "total": 455
   },
   {
     "index": 58,
@@ -1154,10 +985,7 @@ export const pokemonList = [
     "specialAttack": 70,
     "specialDefense": 50,
     "speed": 60,
-    "total": 350,
-    "evolutionCondirion": "",
-    "catchCondition": "７・８番道路・ポケモン屋敷",
-    "additionalInfo": "ファイアレッドのみ"
+    "total": 350
   },
   {
     "index": 59,
@@ -1174,10 +1002,7 @@ export const pokemonList = [
     "specialAttack": 100,
     "specialDefense": 80,
     "speed": 95,
-    "total": 555,
-    "evolutionCondirion": "ガーディに\n炎の石",
-    "catchCondition": "",
-    "additionalInfo": "ファイアレッドのみ"
+    "total": 555
   },
   {
     "index": 60,
@@ -1194,10 +1019,7 @@ export const pokemonList = [
     "specialAttack": 40,
     "specialDefense": 40,
     "speed": 90,
-    "total": 300,
-    "evolutionCondirion": "",
-    "catchCondition": "６・２２・２３・２４・２５番道路・サファリゾーン・トキワシティ・セキチクシティ・ハナダのどうくつ・２の島・きのみのもり・４の島、いてだきのどうくつ・６の島で釣り",
-    "additionalInfo": ""
+    "total": 300
   },
   {
     "index": 61,
@@ -1214,10 +1036,7 @@ export const pokemonList = [
     "specialAttack": 50,
     "specialDefense": 50,
     "speed": 90,
-    "total": 385,
-    "evolutionCondirion": "ニョロモが\nレベル２５",
-    "catchCondition": "６・２２・２３・２４・２５番道路・トキワシティ・ハナダのどうくつ・２の島・きのみのもり・４の島、いてだきのどうくつ・６の島で釣り",
-    "additionalInfo": ""
+    "total": 385
   },
   {
     "index": 62,
@@ -1234,10 +1053,7 @@ export const pokemonList = [
     "specialAttack": 70,
     "specialDefense": 90,
     "speed": 70,
-    "total": 510,
-    "evolutionCondirion": "ニョロゾに\n水の石",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 510
   },
   {
     "index": 63,
@@ -1254,10 +1070,7 @@ export const pokemonList = [
     "specialAttack": 105,
     "specialDefense": 55,
     "speed": 90,
-    "total": 310,
-    "evolutionCondirion": "",
-    "catchCondition": "２４・２５番道路",
-    "additionalInfo": ""
+    "total": 310
   },
   {
     "index": 64,
@@ -1274,10 +1087,7 @@ export const pokemonList = [
     "specialAttack": 120,
     "specialDefense": 70,
     "speed": 105,
-    "total": 400,
-    "evolutionCondirion": "ケーシィが\nレベル１６",
-    "catchCondition": "ハナダのどうくつ",
-    "additionalInfo": ""
+    "total": 400
   },
   {
     "index": 65,
@@ -1294,10 +1104,7 @@ export const pokemonList = [
     "specialAttack": 135,
     "specialDefense": 95,
     "speed": 120,
-    "total": 500,
-    "evolutionCondirion": "ユンゲラーを\n通信交換",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 500
   },
   {
     "index": 66,
@@ -1314,10 +1121,7 @@ export const pokemonList = [
     "specialAttack": 35,
     "specialDefense": 35,
     "speed": 35,
-    "total": 305,
-    "evolutionCondirion": "",
-    "catchCondition": "イワヤマトンネル・チャンピオンロード・１の島",
-    "additionalInfo": ""
+    "total": 305
   },
   {
     "index": 67,
@@ -1334,10 +1138,7 @@ export const pokemonList = [
     "specialAttack": 50,
     "specialDefense": 60,
     "speed": 45,
-    "total": 405,
-    "evolutionCondirion": "ワンリキーが\nレベル２８",
-    "catchCondition": "チャンピオンロード・ハナダのどうくつ・１の島",
-    "additionalInfo": ""
+    "total": 405
   },
   {
     "index": 68,
@@ -1354,10 +1155,7 @@ export const pokemonList = [
     "specialAttack": 65,
     "specialDefense": 85,
     "speed": 55,
-    "total": 505,
-    "evolutionCondirion": "ゴーリキーを\n通信交換",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 505
   },
   {
     "index": 69,
@@ -1374,10 +1172,7 @@ export const pokemonList = [
     "specialAttack": 70,
     "specialDefense": 30,
     "speed": 40,
-    "total": 300,
-    "evolutionCondirion": "",
-    "catchCondition": "５・６・７・１２・１３・１４・１５・２４・２５番道路・２の島・きのみのもり・６の島",
-    "additionalInfo": "リーフグリーンのみ"
+    "total": 300
   },
   {
     "index": 70,
@@ -1394,10 +1189,7 @@ export const pokemonList = [
     "specialAttack": 85,
     "specialDefense": 45,
     "speed": 55,
-    "total": 390,
-    "evolutionCondirion": "マダツボミが\nレベル２１",
-    "catchCondition": "１２・１３・１４・１５番道路・２の島・きのみのもり・６の島",
-    "additionalInfo": "リーフグリーンのみ"
+    "total": 390
   },
   {
     "index": 71,
@@ -1414,10 +1206,7 @@ export const pokemonList = [
     "specialAttack": 100,
     "specialDefense": 70,
     "speed": 70,
-    "total": 490,
-    "evolutionCondirion": "ウツドンに\nリーフの石",
-    "catchCondition": "",
-    "additionalInfo": "リーフグリーンのみ"
+    "total": 490
   },
   {
     "index": 72,
@@ -1434,10 +1223,7 @@ export const pokemonList = [
     "specialAttack": 50,
     "specialDefense": 100,
     "speed": 70,
-    "total": 335,
-    "evolutionCondirion": "",
-    "catchCondition": "各地の水上",
-    "additionalInfo": ""
+    "total": 335
   },
   {
     "index": 73,
@@ -1454,10 +1240,7 @@ export const pokemonList = [
     "specialAttack": 80,
     "specialDefense": 120,
     "speed": 100,
-    "total": 515,
-    "evolutionCondirion": "メノクラゲが\nレベル３０",
-    "catchCondition": "1の島・３の島・４の島・５の島・６の島・７の島の水上",
-    "additionalInfo": ""
+    "total": 515
   },
   {
     "index": 74,
@@ -1474,10 +1257,7 @@ export const pokemonList = [
     "specialAttack": 30,
     "specialDefense": 30,
     "speed": 20,
-    "total": 300,
-    "evolutionCondirion": "",
-    "catchCondition": "オツキミ山・イワヤマトンネル・チャンピオンロード・ハナダのどうくつ（いわくだき）1の島・７の島",
-    "additionalInfo": ""
+    "total": 300
   },
   {
     "index": 75,
@@ -1494,10 +1274,7 @@ export const pokemonList = [
     "specialAttack": 45,
     "specialDefense": 45,
     "speed": 35,
-    "total": 390,
-    "evolutionCondirion": "イシツブテが\nレベル２５",
-    "catchCondition": "イワヤマトンネル（いわくだき）・ハナダのどうくつ（いわくだき）・ともしび山（いわくだき）・７の島（いわくだき）",
-    "additionalInfo": ""
+    "total": 390
   },
   {
     "index": 76,
@@ -1514,10 +1291,7 @@ export const pokemonList = [
     "specialAttack": 55,
     "specialDefense": 65,
     "speed": 45,
-    "total": 495,
-    "evolutionCondirion": "ゴローンを\n通信交換",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 495
   },
   {
     "index": 77,
@@ -1534,10 +1308,7 @@ export const pokemonList = [
     "specialAttack": 65,
     "specialDefense": 65,
     "speed": 90,
-    "total": 410,
-    "evolutionCondirion": "",
-    "catchCondition": "ともしび山",
-    "additionalInfo": ""
+    "total": 410
   },
   {
     "index": 78,
@@ -1554,10 +1325,7 @@ export const pokemonList = [
     "specialAttack": 80,
     "specialDefense": 80,
     "speed": 105,
-    "total": 500,
-    "evolutionCondirion": "ポニータが\nレベル４０",
-    "catchCondition": "ともしび山",
-    "additionalInfo": ""
+    "total": 500
   },
   {
     "index": 79,
@@ -1574,10 +1342,7 @@ export const pokemonList = [
     "specialAttack": 40,
     "specialDefense": 40,
     "speed": 15,
-    "total": 315,
-    "evolutionCondirion": "",
-    "catchCondition": "各地の水上・釣り",
-    "additionalInfo": "リーフグリーンのみ"
+    "total": 315
   },
   {
     "index": 80,
@@ -1594,10 +1359,7 @@ export const pokemonList = [
     "specialAttack": 100,
     "specialDefense": 80,
     "speed": 30,
-    "total": 490,
-    "evolutionCondirion": "ヤドンが\nレベル３７",
-    "catchCondition": "ふたご島、２の島、ふたご島ハナダのどうくつ・きのみのもりの水上",
-    "additionalInfo": "リーフグリーンのみ"
+    "total": 490
   },
   {
     "index": 81,
@@ -1614,10 +1376,7 @@ export const pokemonList = [
     "specialAttack": 95,
     "specialDefense": 55,
     "speed": 45,
-    "total": 325,
-    "evolutionCondirion": "",
-    "catchCondition": "無人発電所",
-    "additionalInfo": ""
+    "total": 325
   },
   {
     "index": 82,
@@ -1634,10 +1393,7 @@ export const pokemonList = [
     "specialAttack": 120,
     "specialDefense": 70,
     "speed": 70,
-    "total": 465,
-    "evolutionCondirion": "コイルが\nレベル３０",
-    "catchCondition": "無人発電所・ハナダのどうくつ",
-    "additionalInfo": ""
+    "total": 465
   },
   {
     "index": 83,
@@ -1654,10 +1410,7 @@ export const pokemonList = [
     "specialAttack": 58,
     "specialDefense": 62,
     "speed": 60,
-    "total": 377,
-    "evolutionCondirion": "",
-    "catchCondition": "クチバシティでオニスズメと交換",
-    "additionalInfo": "special"
+    "total": 377
   },
   {
     "index": 84,
@@ -1674,10 +1427,7 @@ export const pokemonList = [
     "specialAttack": 35,
     "specialDefense": 35,
     "speed": 75,
-    "total": 310,
-    "evolutionCondirion": "",
-    "catchCondition": "１６・１７番道路・サファリゾーン",
-    "additionalInfo": ""
+    "total": 310
   },
   {
     "index": 85,
@@ -1694,10 +1444,7 @@ export const pokemonList = [
     "specialAttack": 60,
     "specialDefense": 60,
     "speed": 110,
-    "total": 470,
-    "evolutionCondirion": "ドードーが\nレベル３１",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 470
   },
   {
     "index": 86,
@@ -1714,10 +1461,7 @@ export const pokemonList = [
     "specialAttack": 45,
     "specialDefense": 70,
     "speed": 45,
-    "total": 325,
-    "evolutionCondirion": "",
-    "catchCondition": "ふたご島・いてだきのどうくつ",
-    "additionalInfo": ""
+    "total": 325
   },
   {
     "index": 87,
@@ -1734,10 +1478,7 @@ export const pokemonList = [
     "specialAttack": 70,
     "specialDefense": 95,
     "speed": 70,
-    "total": 475,
-    "evolutionCondirion": "パウワウが\nレベル３４",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 475
   },
   {
     "index": 88,
@@ -1754,10 +1495,7 @@ export const pokemonList = [
     "specialAttack": 40,
     "specialDefense": 50,
     "speed": 25,
-    "total": 325,
-    "evolutionCondirion": "",
-    "catchCondition": "ポケモン屋敷捕獲、タマムシシティで釣り",
-    "additionalInfo": ""
+    "total": 325
   },
   {
     "index": 89,
@@ -1774,10 +1512,7 @@ export const pokemonList = [
     "specialAttack": 65,
     "specialDefense": 100,
     "speed": 50,
-    "total": 500,
-    "evolutionCondirion": "ベトベターが\nレベル３８",
-    "catchCondition": "ポケモン屋敷（リーフグリーンのみ）",
-    "additionalInfo": ""
+    "total": 500
   },
   {
     "index": 90,
@@ -1794,10 +1529,7 @@ export const pokemonList = [
     "specialAttack": 45,
     "specialDefense": 25,
     "speed": 40,
-    "total": 305,
-    "evolutionCondirion": "",
-    "catchCondition": "マサラタウン・クチバシティ・グレンタウン・１の島・いてだきのどうくつ・５の島で釣り",
-    "additionalInfo": "ファイアレッドのみ"
+    "total": 305
   },
   {
     "index": 91,
@@ -1814,10 +1546,7 @@ export const pokemonList = [
     "specialAttack": 85,
     "specialDefense": 45,
     "speed": 70,
-    "total": 525,
-    "evolutionCondirion": "シェルダーに\n水の石",
-    "catchCondition": "",
-    "additionalInfo": "ファイアレッドのみ"
+    "total": 525
   },
   {
     "index": 92,
@@ -1834,10 +1563,7 @@ export const pokemonList = [
     "specialAttack": 100,
     "specialDefense": 35,
     "speed": 80,
-    "total": 310,
-    "evolutionCondirion": "",
-    "catchCondition": "ポケモンタワー・かえらずの穴",
-    "additionalInfo": ""
+    "total": 310
   },
   {
     "index": 93,
@@ -1854,10 +1580,7 @@ export const pokemonList = [
     "specialAttack": 115,
     "specialDefense": 55,
     "speed": 95,
-    "total": 405,
-    "evolutionCondirion": "ゴースが\nレベル２５",
-    "catchCondition": "ポケモンタワー・かえらずの穴",
-    "additionalInfo": ""
+    "total": 405
   },
   {
     "index": 94,
@@ -1874,10 +1597,7 @@ export const pokemonList = [
     "specialAttack": 130,
     "specialDefense": 75,
     "speed": 110,
-    "total": 500,
-    "evolutionCondirion": "ゴーストを\n通信交換",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 500
   },
   {
     "index": 95,
@@ -1894,10 +1614,7 @@ export const pokemonList = [
     "specialAttack": 30,
     "specialDefense": 45,
     "speed": 70,
-    "total": 385,
-    "evolutionCondirion": "",
-    "catchCondition": "イワヤマトンネル・チャンピオンロード、７の島",
-    "additionalInfo": ""
+    "total": 385
   },
   {
     "index": 96,
@@ -1914,10 +1631,7 @@ export const pokemonList = [
     "specialAttack": 43,
     "specialDefense": 90,
     "speed": 42,
-    "total": 328,
-    "evolutionCondirion": "",
-    "catchCondition": "１１番道路・きのみのもり",
-    "additionalInfo": ""
+    "total": 328
   },
   {
     "index": 97,
@@ -1934,10 +1648,7 @@ export const pokemonList = [
     "specialAttack": 73,
     "specialDefense": 115,
     "speed": 67,
-    "total": 483,
-    "evolutionCondirion": "スリープが\nレベル２６",
-    "catchCondition": "きのみのもり",
-    "additionalInfo": ""
+    "total": 483
   },
   {
     "index": 98,
@@ -1954,10 +1665,7 @@ export const pokemonList = [
     "specialAttack": 25,
     "specialDefense": 25,
     "speed": 50,
-    "total": 325,
-    "evolutionCondirion": "",
-    "catchCondition": "各地で釣り",
-    "additionalInfo": ""
+    "total": 325
   },
   {
     "index": 99,
@@ -1974,10 +1682,7 @@ export const pokemonList = [
     "specialAttack": 50,
     "specialDefense": 50,
     "speed": 75,
-    "total": 475,
-    "evolutionCondirion": "クラブが\nレベル２８",
-    "catchCondition": "１９・２０・２１・２２番水道・１の島・３の島・いてだきのどうくつ・５の島・６の島・７の島で釣り",
-    "additionalInfo": ""
+    "total": 475
   },
   {
     "index": 100,
@@ -1994,10 +1699,7 @@ export const pokemonList = [
     "specialAttack": 55,
     "specialDefense": 55,
     "speed": 100,
-    "total": 330,
-    "evolutionCondirion": "",
-    "catchCondition": "１０番道路・無人発電所",
-    "additionalInfo": ""
+    "total": 330
   },
   {
     "index": 101,
@@ -2014,10 +1716,7 @@ export const pokemonList = [
     "specialAttack": 80,
     "specialDefense": 80,
     "speed": 150,
-    "total": 490,
-    "evolutionCondirion": "ビリリダマが\nレベル３０",
-    "catchCondition": "ハナダのどうくつ",
-    "additionalInfo": ""
+    "total": 490
   },
   {
     "index": 102,
@@ -2034,10 +1733,7 @@ export const pokemonList = [
     "specialAttack": 60,
     "specialDefense": 45,
     "speed": 40,
-    "total": 325,
-    "evolutionCondirion": "",
-    "catchCondition": "サファリゾーン・きのみのもり",
-    "additionalInfo": ""
+    "total": 325
   },
   {
     "index": 103,
@@ -2054,10 +1750,7 @@ export const pokemonList = [
     "specialAttack": 125,
     "specialDefense": 75,
     "speed": 55,
-    "total": 530,
-    "evolutionCondirion": "タマタマに\nリーフの石",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 530
   },
   {
     "index": 104,
@@ -2074,10 +1767,7 @@ export const pokemonList = [
     "specialAttack": 40,
     "specialDefense": 50,
     "speed": 35,
-    "total": 320,
-    "evolutionCondirion": "",
-    "catchCondition": "ポケモンタワー・７の島",
-    "additionalInfo": ""
+    "total": 320
   },
   {
     "index": 105,
@@ -2094,10 +1784,7 @@ export const pokemonList = [
     "specialAttack": 50,
     "specialDefense": 80,
     "speed": 45,
-    "total": 425,
-    "evolutionCondirion": "カラカラが\nレベル２８",
-    "catchCondition": "チャンピオンロード・７の島",
-    "additionalInfo": ""
+    "total": 425
   },
   {
     "index": 106,
@@ -2114,10 +1801,7 @@ export const pokemonList = [
     "specialAttack": 35,
     "specialDefense": 110,
     "speed": 87,
-    "total": 455,
-    "evolutionCondirion": "",
-    "catchCondition": "ヤマブキシティの道場で道場主を倒すと貰える",
-    "additionalInfo": "special"
+    "total": 455
   },
   {
     "index": 107,
@@ -2134,10 +1818,7 @@ export const pokemonList = [
     "specialAttack": 35,
     "specialDefense": 110,
     "speed": 76,
-    "total": 455,
-    "evolutionCondirion": "",
-    "catchCondition": "ヤマブキシティの道場で道場主を倒すと貰える",
-    "additionalInfo": "special"
+    "total": 455
   },
   {
     "index": 108,
@@ -2154,10 +1835,7 @@ export const pokemonList = [
     "specialAttack": 60,
     "specialDefense": 75,
     "speed": 30,
-    "total": 385,
-    "evolutionCondirion": "",
-    "catchCondition": "１８番道路でヤドランと交換",
-    "additionalInfo": "special"
+    "total": 385
   },
   {
     "index": 109,
@@ -2174,10 +1852,7 @@ export const pokemonList = [
     "specialAttack": 60,
     "specialDefense": 45,
     "speed": 35,
-    "total": 340,
-    "evolutionCondirion": "",
-    "catchCondition": "ポケモン屋敷、タマムシシティ水上",
-    "additionalInfo": ""
+    "total": 340
   },
   {
     "index": 110,
@@ -2194,10 +1869,7 @@ export const pokemonList = [
     "specialAttack": 85,
     "specialDefense": 70,
     "speed": 60,
-    "total": 490,
-    "evolutionCondirion": "ドガースが\nレベル３５",
-    "catchCondition": "ポケモン屋敷（ファイアレッドのみ）",
-    "additionalInfo": ""
+    "total": 490
   },
   {
     "index": 111,
@@ -2214,10 +1886,7 @@ export const pokemonList = [
     "specialAttack": 30,
     "specialDefense": 30,
     "speed": 25,
-    "total": 345,
-    "evolutionCondirion": "",
-    "catchCondition": "サファリゾーン",
-    "additionalInfo": ""
+    "total": 345
   },
   {
     "index": 112,
@@ -2234,10 +1903,7 @@ export const pokemonList = [
     "specialAttack": 45,
     "specialDefense": 45,
     "speed": 40,
-    "total": 485,
-    "evolutionCondirion": "サイホーンが\nレベル４２",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 485
   },
   {
     "index": 113,
@@ -2254,10 +1920,7 @@ export const pokemonList = [
     "specialAttack": 35,
     "specialDefense": 105,
     "speed": 50,
-    "total": 450,
-    "evolutionCondirion": "",
-    "catchCondition": "サファリゾーン",
-    "additionalInfo": ""
+    "total": 450
   },
   {
     "index": 114,
@@ -2274,10 +1937,7 @@ export const pokemonList = [
     "specialAttack": 100,
     "specialDefense": 40,
     "speed": 60,
-    "total": 435,
-    "evolutionCondirion": "",
-    "catchCondition": "２１番水道（草むら）・１の島、グレンタウンでコンパンと交換",
-    "additionalInfo": ""
+    "total": 435
   },
   {
     "index": 115,
@@ -2294,10 +1954,7 @@ export const pokemonList = [
     "specialAttack": 40,
     "specialDefense": 80,
     "speed": 90,
-    "total": 490,
-    "evolutionCondirion": "",
-    "catchCondition": "サファリゾーン",
-    "additionalInfo": ""
+    "total": 490
   },
   {
     "index": 116,
@@ -2314,10 +1971,7 @@ export const pokemonList = [
     "specialAttack": 70,
     "specialDefense": 25,
     "speed": 60,
-    "total": 295,
-    "evolutionCondirion": "",
-    "catchCondition": "４・１０・１２・１３・１９・２０・２１・２４番道路・ハナダシティ・クチバシティで釣り",
-    "additionalInfo": ""
+    "total": 295
   },
   {
     "index": 117,
@@ -2334,10 +1988,7 @@ export const pokemonList = [
     "specialAttack": 95,
     "specialDefense": 45,
     "speed": 85,
-    "total": 440,
-    "evolutionCondirion": "タッツーが\nレベル３２",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 440
   },
   {
     "index": 118,
@@ -2354,10 +2005,7 @@ export const pokemonList = [
     "specialAttack": 35,
     "specialDefense": 50,
     "speed": 63,
-    "total": 320,
-    "evolutionCondirion": "",
-    "catchCondition": "６・２２・２３・２４・２５道路・サファリゾーン・ハナダのどうくつ・トキワシティ・セキチクシティ・２の島・きのみのもり・４の島・６の島で釣り",
-    "additionalInfo": ""
+    "total": 320
   },
   {
     "index": 119,
@@ -2374,10 +2022,7 @@ export const pokemonList = [
     "specialAttack": 65,
     "specialDefense": 80,
     "speed": 68,
-    "total": 450,
-    "evolutionCondirion": "トサキントが\nレベル３３",
-    "catchCondition": "サファリゾーン・セキチクシティ・きのみのもりで釣り",
-    "additionalInfo": ""
+    "total": 450
   },
   {
     "index": 120,
@@ -2394,10 +2039,7 @@ export const pokemonList = [
     "specialAttack": 70,
     "specialDefense": 55,
     "speed": 85,
-    "total": 340,
-    "evolutionCondirion": "",
-    "catchCondition": "マサラタウン・クチバシティ・グレンタウン・１の島・４の島・５の島で釣り",
-    "additionalInfo": "リーフグリーンのみ"
+    "total": 340
   },
   {
     "index": 121,
@@ -2414,10 +2056,7 @@ export const pokemonList = [
     "specialAttack": 100,
     "specialDefense": 85,
     "speed": 115,
-    "total": 520,
-    "evolutionCondirion": "ヒトデマンに\n水の石",
-    "catchCondition": "",
-    "additionalInfo": "リーフグリーンのみ"
+    "total": 520
   },
   {
     "index": 122,
@@ -2434,10 +2073,7 @@ export const pokemonList = [
     "specialAttack": 100,
     "specialDefense": 120,
     "speed": 90,
-    "total": 460,
-    "evolutionCondirion": "",
-    "catchCondition": "２番道路でケーシィと交換",
-    "additionalInfo": "special"
+    "total": 460
   },
   {
     "index": 123,
@@ -2454,10 +2090,7 @@ export const pokemonList = [
     "specialAttack": 55,
     "specialDefense": 80,
     "speed": 105,
-    "total": 500,
-    "evolutionCondirion": "",
-    "catchCondition": "サファリゾーン",
-    "additionalInfo": "ファイアレッドのみ"
+    "total": 500
   },
   {
     "index": 124,
@@ -2474,10 +2107,7 @@ export const pokemonList = [
     "specialAttack": 115,
     "specialDefense": 95,
     "speed": 95,
-    "total": 455,
-    "evolutionCondirion": "",
-    "catchCondition": "ハナダシティの民家でニョロゾと交換",
-    "additionalInfo": "special"
+    "total": 455
   },
   {
     "index": 125,
@@ -2494,10 +2124,7 @@ export const pokemonList = [
     "specialAttack": 95,
     "specialDefense": 85,
     "speed": 105,
-    "total": 490,
-    "evolutionCondirion": "",
-    "catchCondition": "無人発電所",
-    "additionalInfo": "ファイアレッドのみ"
+    "total": 490
   },
   {
     "index": 126,
@@ -2514,10 +2141,7 @@ export const pokemonList = [
     "specialAttack": 100,
     "specialDefense": 85,
     "speed": 93,
-    "total": 495,
-    "evolutionCondirion": "",
-    "catchCondition": "ともしび山",
-    "additionalInfo": "リーフグリーンのみ"
+    "total": 495
   },
   {
     "index": 127,
@@ -2534,10 +2158,7 @@ export const pokemonList = [
     "specialAttack": 55,
     "specialDefense": 70,
     "speed": 85,
-    "total": 500,
-    "evolutionCondirion": "",
-    "catchCondition": "サファリゾーン",
-    "additionalInfo": "リーフグリーンのみ"
+    "total": 500
   },
   {
     "index": 128,
@@ -2554,10 +2175,7 @@ export const pokemonList = [
     "specialAttack": 40,
     "specialDefense": 70,
     "speed": 110,
-    "total": 490,
-    "evolutionCondirion": "",
-    "catchCondition": "サファリゾーン",
-    "additionalInfo": ""
+    "total": 490
   },
   {
     "index": 129,
@@ -2574,10 +2192,7 @@ export const pokemonList = [
     "specialAttack": 15,
     "specialDefense": 20,
     "speed": 80,
-    "total": 200,
-    "evolutionCondirion": "",
-    "catchCondition": "ボロの釣竿を使えばどこでも釣れる",
-    "additionalInfo": ""
+    "total": 200
   },
   {
     "index": 130,
@@ -2594,10 +2209,7 @@ export const pokemonList = [
     "specialAttack": 60,
     "specialDefense": 100,
     "speed": 81,
-    "total": 540,
-    "evolutionCondirion": "コイキングが\nレベル２０",
-    "catchCondition": "各地で釣り",
-    "additionalInfo": ""
+    "total": 540
   },
   {
     "index": 131,
@@ -2614,10 +2226,7 @@ export const pokemonList = [
     "specialAttack": 85,
     "specialDefense": 95,
     "speed": 60,
-    "total": 535,
-    "evolutionCondirion": "",
-    "catchCondition": "シルフカンパニー７階の社員に貰う・いてだきのどうくつ水上",
-    "additionalInfo": ""
+    "total": 535
   },
   {
     "index": 132,
@@ -2634,10 +2243,7 @@ export const pokemonList = [
     "specialAttack": 48,
     "specialDefense": 48,
     "speed": 48,
-    "total": 288,
-    "evolutionCondirion": "",
-    "catchCondition": "１４・１５番道路・ポケモン屋敷",
-    "additionalInfo": ""
+    "total": 288
   },
   {
     "index": 133,
@@ -2654,10 +2260,7 @@ export const pokemonList = [
     "specialAttack": 45,
     "specialDefense": 65,
     "speed": 55,
-    "total": 325,
-    "evolutionCondirion": "",
-    "catchCondition": "タマムシマンション最上階で拾う",
-    "additionalInfo": "special"
+    "total": 325
   },
   {
     "index": 134,
@@ -2674,10 +2277,7 @@ export const pokemonList = [
     "specialAttack": 110,
     "specialDefense": 95,
     "speed": 65,
-    "total": 525,
-    "evolutionCondirion": "イーブイに\n水の石",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 525
   },
   {
     "index": 135,
@@ -2694,10 +2294,7 @@ export const pokemonList = [
     "specialAttack": 110,
     "specialDefense": 95,
     "speed": 130,
-    "total": 525,
-    "evolutionCondirion": "イーブイに\n雷の石",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 525
   },
   {
     "index": 136,
@@ -2714,10 +2311,7 @@ export const pokemonList = [
     "specialAttack": 95,
     "specialDefense": 110,
     "speed": 65,
-    "total": 525,
-    "evolutionCondirion": "イーブイに\n炎の石",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 525
   },
   {
     "index": 137,
@@ -2734,10 +2328,7 @@ export const pokemonList = [
     "specialAttack": 85,
     "specialDefense": 75,
     "speed": 40,
-    "total": 395,
-    "evolutionCondirion": "",
-    "catchCondition": "スロットコーナーの景品",
-    "additionalInfo": "special"
+    "total": 395
   },
   {
     "index": 138,
@@ -2754,10 +2345,7 @@ export const pokemonList = [
     "specialAttack": 90,
     "specialDefense": 55,
     "speed": 35,
-    "total": 355,
-    "evolutionCondirion": "",
-    "catchCondition": "オツキミ山で拾ったカブトの化石をグレン島研究所で復活",
-    "additionalInfo": "special"
+    "total": 355
   },
   {
     "index": 139,
@@ -2774,10 +2362,7 @@ export const pokemonList = [
     "specialAttack": 115,
     "specialDefense": 70,
     "speed": 55,
-    "total": 495,
-    "evolutionCondirion": "オムスターが\nレベル４０",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 495
   },
   {
     "index": 140,
@@ -2794,10 +2379,7 @@ export const pokemonList = [
     "specialAttack": 55,
     "specialDefense": 45,
     "speed": 55,
-    "total": 355,
-    "evolutionCondirion": "",
-    "catchCondition": "オツキミ山で拾ったオムナイト化石をグレン島研究所で復活",
-    "additionalInfo": "special"
+    "total": 355
   },
   {
     "index": 141,
@@ -2814,10 +2396,7 @@ export const pokemonList = [
     "specialAttack": 65,
     "specialDefense": 70,
     "speed": 80,
-    "total": 495,
-    "evolutionCondirion": "カブトが\nレベル４０",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 495
   },
   {
     "index": 142,
@@ -2834,10 +2413,7 @@ export const pokemonList = [
     "specialAttack": 60,
     "specialDefense": 75,
     "speed": 130,
-    "total": 515,
-    "evolutionCondirion": "",
-    "catchCondition": "ニビ博物館で貰った化石をグレン島研究所で復活\n（裏側から入って研究員に話し掛けると化石が貰えます）",
-    "additionalInfo": "special"
+    "total": 515
   },
   {
     "index": 143,
@@ -2854,10 +2430,7 @@ export const pokemonList = [
     "specialAttack": 65,
     "specialDefense": 110,
     "speed": 30,
-    "total": 540,
-    "evolutionCondirion": "",
-    "catchCondition": "１６番道路・１２番道路",
-    "additionalInfo": "special"
+    "total": 540
   },
   {
     "index": 144,
@@ -2874,10 +2447,7 @@ export const pokemonList = [
     "specialAttack": 95,
     "specialDefense": 125,
     "speed": 85,
-    "total": 580,
-    "evolutionCondirion": "",
-    "catchCondition": "ふたご島",
-    "additionalInfo": "legendary"
+    "total": 580
   },
   {
     "index": 145,
@@ -2894,10 +2464,7 @@ export const pokemonList = [
     "specialAttack": 125,
     "specialDefense": 90,
     "speed": 100,
-    "total": 580,
-    "evolutionCondirion": "",
-    "catchCondition": "無人発電所",
-    "additionalInfo": "legendary"
+    "total": 580
   },
   {
     "index": 146,
@@ -2914,10 +2481,7 @@ export const pokemonList = [
     "specialAttack": 125,
     "specialDefense": 85,
     "speed": 90,
-    "total": 580,
-    "evolutionCondirion": "",
-    "catchCondition": "１の島",
-    "additionalInfo": "legendary"
+    "total": 580
   },
   {
     "index": 147,
@@ -2934,10 +2498,7 @@ export const pokemonList = [
     "specialAttack": 50,
     "specialDefense": 50,
     "speed": 50,
-    "total": 300,
-    "evolutionCondirion": "",
-    "catchCondition": "サファリゾーン・スロットの景品",
-    "additionalInfo": ""
+    "total": 300
   },
   {
     "index": 148,
@@ -2954,10 +2515,7 @@ export const pokemonList = [
     "specialAttack": 70,
     "specialDefense": 70,
     "speed": 70,
-    "total": 420,
-    "evolutionCondirion": "ミニリュウが\nレベル３０",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 420
   },
   {
     "index": 149,
@@ -2974,10 +2532,7 @@ export const pokemonList = [
     "specialAttack": 100,
     "specialDefense": 100,
     "speed": 80,
-    "total": 600,
-    "evolutionCondirion": "ハクリューが\nレベル５５",
-    "catchCondition": "",
-    "additionalInfo": ""
+    "total": 600
   },
   {
     "index": 150,
@@ -2994,10 +2549,7 @@ export const pokemonList = [
     "specialAttack": 154,
     "specialDefense": 90,
     "speed": 130,
-    "total": 680,
-    "evolutionCondirion": "",
-    "catchCondition": "ハナダの洞窟",
-    "additionalInfo": "legendary"
+    "total": 680
   },
   {
     "index": 151,
@@ -3014,9 +2566,6 @@ export const pokemonList = [
     "specialAttack": 100,
     "specialDefense": 100,
     "speed": 100,
-    "total": 600,
-    "evolutionCondirion": "",
-    "catchCondition": "",
-    "additionalInfo": "impossible"
+    "total": 600
   }
-]
+];

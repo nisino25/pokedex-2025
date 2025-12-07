@@ -58,7 +58,7 @@ function getTypeBadge(type) {
 
 
     return (
-        "px-2 py-1 rounded text-xs font-bold inline-block " +
+        "px-1 py-1 rounded text-xs font-bold inline-block " +
         (colors[type] || "bg-gray-200 text-black")
     );
 }
