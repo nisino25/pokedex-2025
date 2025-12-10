@@ -22,5 +22,5 @@ const props = defineProps({
     currentTab: String
 });
 
-const tabs = ["Pokedex", "VS"];
+const tabs = ["Home", "Pokedex", "VS"];
 </script>

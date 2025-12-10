@@ -21,25 +21,81 @@
         <!-- Pokemon Table -->
         <table class="min-w-full bg-white border border-gray-200">
             <thead>
-                <tr class="bg-gray-100 sticky top-[70px] z-10">
-                    <th class="py-2 px-1 cursor-pointer whitespace-nowrap" @click="sortBy('index')">#</th>
-                    <th class="py-2 px-6 whitespace-nowrap">画像</th>
-                    <th class="py-2 px-2 cursor-pointer whitespace-nowrap" @click="sortBy('name')">名前</th>
-                    <th class="py-2 px-2 cursor-pointer whitespace-nowrap">タイプ</th>
-                    <th class="py-2 px-2 whitespace-nowrap">
-                        <span class="cursor-pointer px-1" @click="sortBy('speed')">S</span>-
-                        <span class="cursor-pointer px-1" @click="sortBy('attack')">A</span>-
-                        <span class="cursor-pointer px-1" @click="sortBy('specialAttack')">C</span>-
-                        <span class="cursor-pointer px-1" @click="sortBy('defense')">B</span>-
-                        <span class="cursor-pointer px-1" @click="sortBy('specialDefense')">D</span>-
-                        <span class="cursor-pointer px-1" @click="sortBy('hp')">H</span>-
-                        <span class="cursor-pointer px-1" @click="sortBy('total')">T</span>
-                    </th>
+    <tr class="bg-gray-100 sticky top-[70px] z-10">
+        <th
+            class="py-2 px-1 cursor-pointer whitespace-nowrap"
+            :class="sortColumn === 'index' ? 'bg-yellow-200 text-yellow-800' : ''"
+            @click="sortBy('index')"
+        >
+            #
+        </th>
+        <th class="py-2 px-6 whitespace-nowrap">画像</th>
+        <th
+            class="py-2 px-2 cursor-pointer whitespace-nowrap"
+            :class="sortColumn === 'name' ? 'bg-yellow-200 text-yellow-800' : ''"
+            @click="sortBy('name')"
+        >
+            名前
+        </th>
+        <th
+            class="py-2 px-2 cursor-pointer whitespace-nowrap"
+            :class="sortColumn === 'type1' || sortColumn === 'type2' ? 'bg-yellow-200 text-yellow-800' : ''"
+        >
+            タイプ
+        </th>
+        <th class="py-2 px-2 whitespace-nowrap">
+            <span
+                class="cursor-pointer px-1"
+                :class="sortColumn === 'speed' ? 'bg-yellow-200 text-yellow-800' : ''"
+                @click="sortBy('speed')"
+            >S</span>-
+            <span
+                class="cursor-pointer px-1"
+                :class="sortColumn === 'attack' ? 'bg-yellow-200 text-yellow-800' : ''"
+                @click="sortBy('attack')"
+            >A</span>-
+            <span
+                class="cursor-pointer px-1"
+                :class="sortColumn === 'specialAttack' ? 'bg-yellow-200 text-yellow-800' : ''"
+                @click="sortBy('specialAttack')"
+            >C</span>-
+            <span
+                class="cursor-pointer px-1"
+                :class="sortColumn === 'defense' ? 'bg-yellow-200 text-yellow-800' : ''"
+                @click="sortBy('defense')"
+            >B</span>-
+            <span
+                class="cursor-pointer px-1"
+                :class="sortColumn === 'specialDefense' ? 'bg-yellow-200 text-yellow-800' : ''"
+                @click="sortBy('specialDefense')"
+            >D</span>-
+            <span
+                class="cursor-pointer px-1"
+                :class="sortColumn === 'hp' ? 'bg-yellow-200 text-yellow-800' : ''"
+                @click="sortBy('hp')"
+            >H</span>-
+            <span
+                class="cursor-pointer px-1"
+                :class="sortColumn === 'total' ? 'bg-yellow-200 text-yellow-800' : ''"
+                @click="sortBy('total')"
+            >T</span>
+        </th>
 
-                    <th class="py-2 px-6 cursor-pointer whitespace-nowrap">進化条件</th>
-                    <th class="py-2 px-2 cursor-pointer whitespace-nowrap">出現条件</th>
-                </tr>
-            </thead>
+        <th
+            class="py-2 px-6 cursor-pointer whitespace-nowrap"
+            :class="sortColumn === 'evolutionCondirion' ? 'bg-yellow-200 text-yellow-800' : ''"
+        >
+            進化条件
+        </th>
+        <th
+            class="py-2 px-2 cursor-pointer whitespace-nowrap"
+            :class="sortColumn === 'catchCondition' ? 'bg-yellow-200 text-yellow-800' : ''"
+        >
+            出現条件
+        </th>
+    </tr>
+</thead>
+
             <tbody>
                 <tr
                     v-for="pokemon in filteredAndSortedPokemons"
@@ -54,7 +110,15 @@
                             class="w-16 h-auto mx-auto"
                         />
                     </td>
-                    <td class="py-2 px-2 whitespace-nowrap">{{ pokemon.name }}</td>
+                    <td class="py-2 px-2 whitespace-nowrap">
+                        <a
+                            :href="`http://pokemon.ui-nap.com/cgi-bin/zukan-fl/?no=${pokemon.index}`"
+                            target="_blank"
+                            class="text-blue-600 hover:underline"
+                        >
+                            {{ pokemon.name }}
+                        </a>
+                    </td>
                     <td class="py-2 px-2 whitespace-nowrap">
                         <span :class="getTypeBadge(pokemon.type1)">{{ pokemon.type1 }}</span>
                         <br v-if="pokemon.type2">
@@ -87,7 +151,9 @@
 // eslint-disable-next-line no-undef
 const props = defineProps({
     filterType: String,
-    getTypeBadge: Function
+    getTypeBadge: Function,
+    physicalTypes: Array,
+    specialTypes: Array,
 });
 
 import { ref, computed, watch } from "vue";
@@ -102,10 +168,18 @@ const selectedType = ref(props.filterType || "");
 
 // propの変更を監視して更新
 watch(
-    () => props.filterType,
+    () => selectedType.value,
     (newType) => {
-        selectedType.value = newType;
-    }
+        if (props.physicalTypes.includes(newType)) sortColumn.value = "attack";
+        else if (props.specialTypes.includes(newType)) sortColumn.value = "specialAttack";
+        else {
+            sortColumn.value = "index"; // fallback
+            sortAsc.value = true;
+            return;
+        }
+        sortAsc.value = false; // reset sort order
+    },
+    { immediate: true }
 );
 
 const sortBy = (column) => {
