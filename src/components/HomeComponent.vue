@@ -1,39 +1,58 @@
 <template>
-    <div class="p-6 max-w-3xl mx-auto">
-        <h1 class="text-2xl font-bold mb-4">ポケモンバトルの基本（第3世代まで）</h1>
+    <div class="p-6 max-w-5xl mx-auto">
+    <div class="flex flex-col md:flex-row gap-6 items-start">
+        
+        <!-- LEFT: Text content -->
+        <div class="md:w-3/5">
+            <h1 class="text-2xl font-bold mb-4">
+                ポケモンバトルの基本（第3世代まで）
+            </h1>
 
-        <div class="mb-6">
-            <h2 class="text-xl font-semibold mb-2">物理技（タイプで決まる）</h2>
-            <div class="flex flex-wrap gap-2">
-                <span
-                    v-for="type in physicalTypes"
-                    :key="type"
-                    :class="props.getTypeBadge(type)"
-                    class="px-2 py-1 rounded text-sm"
-                >
-                    {{ type }}
-                </span>
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold mb-2">物理技（タイプで決まる）</h2>
+                <div class="flex flex-wrap gap-2">
+                    <span
+                        v-for="type in physicalTypes"
+                        :key="type"
+                        :class="props.getTypeBadge(type)"
+                        class="px-2 py-1 rounded text-sm"
+                    >
+                        {{ type }}
+                    </span>
+                </div>
             </div>
+
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold mb-2">特殊技（タイプで決まる）</h2>
+                <div class="flex flex-wrap gap-2">
+                    <span
+                        v-for="type in specialTypes"
+                        :key="type"
+                        :class="props.getTypeBadge(type)"
+                        class="px-2 py-1 rounded text-sm"
+                    >
+                        {{ type }}
+                    </span>
+                </div>
+            </div>
+
+            <p class="text-sm text-gray-600">
+                ※ 第4世代（ダイヤモンド・パール）からは技ごとに物理・特殊が分かれるようになりました。
+            </p>
         </div>
 
-        <div class="mb-6">
-            <h2 class="text-xl font-semibold mb-2">特殊技（タイプで決まる）</h2>
-            <div class="flex flex-wrap gap-2">
-                <span
-                    v-for="type in specialTypes"
-                    :key="type"
-                    :class="props.getTypeBadge(type)"
-                    class="px-2 py-1 rounded text-sm"
-                >
-                    {{ type }}
-                </span>
-            </div>
+        <!-- RIGHT: Image -->
+        <div class="md:w-2/5 flex justify-center">
+            <img
+                src="https://assets.st-note.com/img/1696573473604-yeIgCsnX1C.png?width=1200"
+                alt="物理・特殊分類図"
+                class="max-w-full rounded shadow"
+            >
         </div>
 
-        <p class="text-sm text-gray-600">
-            ※ 第4世代（ダイヤモンド・パール）からは技ごとに物理・特殊が分かれるようになりました。
-        </p>
     </div>
+</div>
+
     <hr>
     <div class="p-6">
         <h1 class="text-2xl font-bold mb-6 text-center">進化の石リスト</h1>
